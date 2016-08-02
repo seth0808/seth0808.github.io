@@ -7,6 +7,7 @@
         <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.min.js"></script> <!-- angular -->
         <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script> <!-- jquery ui -->
+        <script src="http://maps.googleapis.com/maps/api/js"></script> <!-- Google Maps -->
         <!--- Add link and script tags here --->
     </head>
     <body ng-controller="MainController">
@@ -17,30 +18,35 @@
         </a>
             
             <div id="paragraphs">
-                <h1>{{info.onepheading}}</h1>
-                <p>{{info.onepbody}}</p>
-                <h2>{{info.twopheading}}</h2>
-                <p>{{info.twopbody}}</p>
+                <div id="googleMap" style="width:100%;height:80%;">Loading Map...</div>
+                <div id="learn">
+                    <h1 id="h1"> Learn More by Visiting These Sites!</h1>
+                    <div id="sites">
+                            <div id="siteslist">
+                                 <a id="siteone" href="https://www.hopeoflifeintl.org/"> Hope of Life</a><a href="https://en.wikipedia.org/wiki/Zacapa"> Zacapa</a><a href="https://www.hopeoflifeintl.org/our-mission/our-story/"> Story</a><a href="http://www.gainesville.com/news/20081213/facing-poverty-in-guatemala"> The Poverty</a>
+                            </div>
+                    </div>
+                </div>
             </div>
 
         
             <div id="links">
-                <a href="index.html">
+                <a href="">
                     <div id="index" class="links">
                         <p>Main</p>
                     </div>
                 </a>    
-                <a href="myExperience.html">
+                <a href="">
                     <div id="myexperience" class="links">
                         <p>My Experience</p>
                     </div>
                 </a>    
-                <a href="guatemala.html">
+                <a href="">
                     <div id="guatemala" class="links">
                         <p>Guatemala</p>
                     </div>
                 </a>  
-                <a href="donate.html">
+                <a href="">
                     <div id="donate" class="links">
                         <p>Donate</p>
                     </div>
