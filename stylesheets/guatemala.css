@@ -1,0 +1,99 @@
+html {
+    background-image: url("http://i.istockimg.com/file_thumbview_approve/87125881/3/stock-illustration-87125881-seamless-tropical-palm-leaves-background-for-design-scrapbook.jpg");
+}
+body {
+    background-color: rgb(252, 216, 134);
+    height: 900px;
+}
+
+#links {
+    position: absolute;
+    top: 10px;
+    left: 160px;
+    width: 100%;
+    height: 100px;
+}
+.links {
+    color: white;
+    font-family: Tahoma, Geneva, sans-serif;
+    margin-top: 10px;
+    position: relative;
+    background-color: green;
+    display: inline-block;
+    width: 150px;
+    height: 70px;
+    text-align: center;
+    margin-left: 10px;
+}
+.links p {
+    position: relative;
+    margin-top: 25px;
+}
+#donate {
+    border: 6px inset black;
+    
+}
+#donate:hover {
+    border: 6px outset black;
+    background-color: rgb(0, 150, 0);
+}
+#footer {
+    color: white;
+    position: absolute;
+    width: 100%;
+    top: 875px;
+    left: 0;
+    text-align: center;
+}
+#paragraphs {
+    text-align: center;
+    font-family: Tahoma, Geneva, sans-serif;
+    background-color: white;
+    position: absolute;
+    top: 120px;
+    left: 25px;
+    width:  95.4%;
+    height: 700px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+#image {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 100px;
+    width: 100px;
+}
+#hopeoflifeimg {
+    top: -20px;
+    left: -30px;
+    position:absolute;
+    transform: scale(0.7, 0.7);
+}
+#sites {
+    border: 5px groove black;
+    text-align: center;
+    background-color: rgb(0, 204, 255);
+    height: 100px;
+}
+#sites a {
+    margin-left: 100px;
+}
+#siteone {
+    margin-left: 0px;
+}
+#siteslist {
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+    position: relative;
+    display: inline-block;
+    margin-top: 40px;
+    left: -60px;
+    right:0px;
+}
+#h1 {
+    text-decoration: underline;
+}
