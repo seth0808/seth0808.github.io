@@ -2,6 +2,10 @@
 <html ng-app="appname">
     <head>
         <!--- Add meta tags here --->
+        <meta name="description" content="Learn about my project and help by donating!" />
+        
+        
+        <!---                    --->
         <title> Christmas Bags Donation </title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> <!-- jquery 1x -->
         <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.min.js"></script> <!-- angular -->
@@ -9,10 +13,10 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script> <!-- jquery ui -->
         
         <link rel="stylesheet" href="http://guatemala-site.orionhub.org:8000/donate.css">
-        <script src=""></script>
+        <script src="http://guatemala-site.orionhub.org:8000/jsdonate.js"></script>
     </head>
     <body ng-controller="MainController">
-        <a href="">
+        <a href="https://www.hopeoflifeintl.org/" target="_blank">
             <div id="image">
                 <img id="hopeoflifeimg" src="https://pbs.twimg.com/profile_images/1299791258/logo2.png"/>
             </div>
@@ -21,12 +25,12 @@
             <div id="paragraphs">
                 <div id="infoWindow">
                     <p>
-                        Information about how much people should donate/The value of each bag
+                        Each bag contains essential hygiene and school supplies as well as fun gifts. The bags will also be filled with hard candies, hats, socks, etc. 
                     </p>
                 </div>
                 <div id="donateWindow">
                     <div id="paypal">
-                        <span style="font-size: 20px; color: white; background-color: black">Paypal is currently unavailable</pan>
+                      <p style="color: white; background-color: black">Thank you everyone for your support. </p>
                         <!--
                         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                             <input type="hidden" name="cmd" value="_s-xclick">
@@ -42,28 +46,29 @@
                     <span>
                         Donated: {{info.donated | currency}}
                     </span>
+                    <div style="font-size: 20px; text-align: center; position: relative"> Donations are now closed </div>
                 </div>
             </div>
             </div>
 
         
             <div id="links">
-                <a href="index.html">
+                <a href="http://guatemala-site.orionhub.org:8000/index.html">
                     <div id="index" class="links">
                         <p>Main</p>
                     </div>
                 </a>    
-                <a href="myExperience.html">
+                <a href="http://guatemala-site.orionhub.org:8000/myExperience.html">
                     <div id="myexperience" class="links">
                         <p>My Experience</p>
                     </div>
                 </a>    
-                <a href="guatemala.html">
+                <a href="http://guatemala-site.orionhub.org:8000/guatemala.html">
                     <div id="guatemala" class="links">
                         <p>Guatemala</p>
                     </div>
                 </a>  
-                <a href="donate.html">
+                <a href="http://guatemala-site.orionhub.org:8000/donate.html">
                     <div id="donate" class="links">
                         <p>Donate</p>
                     </div>
@@ -73,7 +78,7 @@
         
         
         <div id="footer">
-            Created by Seth Kujawa
+            Created and Built by Seth Kujawa
             
         
         
